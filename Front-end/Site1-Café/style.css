@@ -1,0 +1,346 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+    border: none
+}
+
+footer{
+    text-align: center;
+    color: white;
+    align-items: center;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+html::-webkit-scrollbar{
+    width: 0.2rem;
+}
+
+html::-webkit-scrollbar-track{
+    background: transparent;
+}
+
+html::-webkit-scrollbar-thumb{
+    background-color: rgba(255, 166, 0, 0.219);
+    border-radius: 5rem;
+}
+
+.background{
+    background-image: url("home-img.jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+body{
+    background-color: black;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    padding: 1.5rem;
+    padding-top: 1.5rem;
+    align-items: center;
+}
+
+.logo img{
+    width: 75px;
+    height: auto;
+    margin-left: 5rem;
+    border-radius: 100px;
+}
+
+.logo img:hover{
+    cursor: pointer;
+}
+
+ul{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    list-style: none;
+    display: flex;
+    gap: 3rem;
+    margin-right: 42rem;
+}
+
+ul li{
+    list-style: none;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+
+}
+
+.Icone ion-icon{
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+ul li a:hover{
+    text-transform: capitalize;
+    color : rgb(101, 110, 3);
+    border-bottom: solid 1px;
+}
+
+hr{
+    border-bottom: solid 0.1px;
+    color: rgb(54, 46, 46);
+    margin-top: 15px;
+}
+
+.C-title{
+    margin-left: 5rem;
+    margin-top: 10rem;
+}
+
+.C-title h1{
+    color: white;
+    font-size: 5rem;
+}
+
+.C-title p{
+    color: white;
+    font-size: 2rem;
+    line-height: 2rem;
+    font-weight: 100;
+}
+
+.btn{
+    background-color: rgb(26, 20, 11);
+    padding: 0.7rem 1rem;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    transition: 0.3s;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-left: 5rem;
+    margin-top: 2rem;
+}
+
+.btn:hover{
+    background-color: rgba(101, 110, 3, 0.349);
+    transform: scale(1.2);
+    transition: 0.3s all;
+}
+
+.btn2:hover{
+    background-color: rgba(101, 110, 3, 0.349);
+    transform: scale(1.2);
+    transition: 0.3s all;
+}
+
+.section-1 h1{
+    text-align: center;
+    align-items: center;
+    color: white;
+    font-size: 3rem;
+}
+
+.section-1 span{
+    color: #d3ad7f;
+}
+
+.section-1{
+    padding: 5rem;
+}
+
+.btn2{
+    background-color: rgb(26, 20, 11);
+    padding: 0.7rem 1rem;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    transition: 0.3s;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 2rem;
+    text-align: center;
+    align-items: center;
+}
+
+.Sobrenos{
+    display: flex;
+    align-items: center;
+    background-color: #13131a;
+    max-width: 100%;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.sobreimg img{
+    max-width: 100%;
+    width: 80rem;
+    height: auto;
+}
+
+.sobrenos-title{
+    margin-left: 1.3rem;
+}
+
+.sobrenos-title h2{
+    color: white;
+    font-size: 2rem;
+}
+
+.sobrenos-title p{
+    color: white;
+    line-height: 2rem;
+    padding-top: 1rem;
+    font-size: 1rem;
+    width: 45rem;
+}
+
+.section-2 h1{
+    text-align: center;
+    align-items: center;
+    color: white;
+    font-size: 3rem;
+}
+
+.section-2 span{
+    color: #d3ad7f;
+}
+
+.Container-card-1{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.card-img{
+    border: solid 1px rgba(255, 255, 255, .3);
+    padding: 5rem;
+    align-items: center;
+    text-align: center;
+    max-width: 100%;
+    width: 25rem;
+    height: 23rem;
+}
+
+.card-img img{
+    width: 120px;
+    height: auto;
+    border-radius: 100px;
+}
+
+.card-img h3{
+    color: white;
+    font-size: 1.5rem;
+}
+
+.card-img p{
+    color: #ccc;
+    font-size: 1.8rem;
+    margin-top: 1rem;
+}
+
+.card-img button{
+    margin-top: 1rem;
+    background-color: #d3ad7f;
+    color: white;
+    font-size: 1.2rem;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.card-img span{
+    color: white;
+    font-weight: lighter;
+    text-decoration: line-through;
+    font-size: 1rem;
+}
+
+.card-img :hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 0.5s;
+    background-color: #0d0d0f;
+}
+
+#Container-card-2{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.Container-card-3{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.section-3 h1{
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+    align-items: center;
+}
+
+.section-4{
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.section-4 h1{
+    color : white;
+    font-size: 3rem;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.Container-form{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.inputform iframe{
+    border-radius: 10%;
+    scrollbar-width: 0.1rem;
+    width: 280px;
+    margin-right: 19rem;
+    margin-bottom: 3rem;
+    height: 26.5rem;
+}
+
+#map {
+    border-radius: 10%;
+    height: 25rem;
+}
+
+#span3{
+    color: #d3ad7f;
+}
+
+.final{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 42rem;
+}
